@@ -5,24 +5,20 @@
 Перейдите в корень проекта и выполните следующие команды в консоли в консоли:
 
 ```bash
-curl https://raw.githubusercontent.com/romanvolodin/template-python-project/main/.editorconfig > .editorconfig
+repoUrl=https://raw.githubusercontent.com/romanvolodin/template-python-project/main
 
-curl https://raw.githubusercontent.com/romanvolodin/template-python-project/main/Python.gitignore > .gitignore
-
-curl https://raw.githubusercontent.com/romanvolodin/template-python-project/main/README_TEMPLATE.md > README.md
-
-curl https://raw.githubusercontent.com/romanvolodin/template-python-project/main/pyproject.toml > pyproject.toml
-
-curl https://raw.githubusercontent.com/romanvolodin/template-python-project/main/requirements-dev.txt > requirements-dev.txt
-
-curl https://raw.githubusercontent.com/romanvolodin/template-python-project/main/requirements.txt > requirements.txt
-
-curl https://raw.githubusercontent.com/romanvolodin/template-python-project/main/sample.env > .env
+curl $repoUrl/.editorconfig > .editorconfig
+curl $repoUrl/Python.gitignore > .gitignore
+curl $repoUrl/README_TEMPLATE.md > README.md
+curl $repoUrl/pyproject.toml > pyproject.toml
+curl $repoUrl/requirements-dev.txt > requirements-dev.txt
+curl $repoUrl/requirements.txt > requirements.txt
+curl $repoUrl/sample.env > .env
 ```
 
 Скопируем настройки VS Code:
 
 ```bash
 mkdir .vscode
-curl https://raw.githubusercontent.com/romanvolodin/template-python-project/main/.vscode/settings.json > .vscode/settings.json
+curl $repoUrl/.vscode/settings.json > .vscode/settings.json
 ```
