@@ -1,6 +1,6 @@
 [tool.black]
 line-length = 100
-exclude = ['migrations']
+exclude = 'migrations'
 
 [tool.djlint]
 profile = 'django'
