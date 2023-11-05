@@ -2,7 +2,7 @@
 
 ## Как использовать
 
-Перейдите в корень проекта и выполните следующие команды в консоли в консоли:
+Перейдите в корень проекта и выполните следующие команды в консоли:
 
 ```bash
 repoUrl=https://raw.githubusercontent.com/romanvolodin/template-python-project/main
