@@ -21,4 +21,5 @@ curl $repoUrl/.env.template > .env
 ```bash
 mkdir .vscode
 curl $repoUrl/.vscode/settings.json > .vscode/settings.json
+curl $repoUrl/.vscode/extensions.json > .vscode/extensions.json
 ```
