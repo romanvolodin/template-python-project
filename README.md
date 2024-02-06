@@ -13,7 +13,7 @@ curl $repoUrl/README_TEMPLATE.md > README.md
 curl $repoUrl/pyproject.toml > pyproject.toml
 curl $repoUrl/requirements-dev.txt > requirements-dev.txt
 curl $repoUrl/requirements.txt > requirements.txt
-curl $repoUrl/sample.env > .env
+curl $repoUrl/.env.template > .env
 ```
 
 Скопируем настройки VS Code:
