@@ -3,6 +3,7 @@
         "editorconfig.editorconfig",
         "monosans.djlint",
         "ms-python.black-formatter",
+        "ms-python.flake8",
         "ms-python.isort",
         "streetsidesoftware.code-spell-checker",
         "streetsidesoftware.code-spell-checker-russian",
