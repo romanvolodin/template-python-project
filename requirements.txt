@@ -1,1 +1,1 @@
-environs==9.5.*
+environs==10.3.*
